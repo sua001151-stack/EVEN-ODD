@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num;
+
+    // Get input from the user
+    cout << "Enter an integer: ";
+    cin >> num;
+
+    // Check if the number is divisible by 2
+    if (num % 2 == 0) {
+        cout << num << " is an Even number." << endl;
+    } else {
+        cout << num << " is an Odd number." << endl;
+    }
+
+    return 0;
+}
